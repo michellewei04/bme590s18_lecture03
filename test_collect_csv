@@ -1,0 +1,8 @@
+import glob2 as gb
+import numpy as np
+import csv
+
+
+def collect_all_csv_filenames():
+    for file in gb.glob("*.csv"):
+        print(file)
